@@ -1,0 +1,34 @@
+.about-us {
+  font-family: 'Roboto', sans-serif;
+  color: #333; 
+  line-height: 1.6;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto; 
+}
+
+.about-us h1 {
+  font-size: 2rem;
+  font-weight: 700; 
+  margin-bottom: 1rem;
+  color: #212121; 
+}
+
+.about-us p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #100303; 
+}
+
+.about-us img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .about-us {
+      padding: 15px;
+  }
+}
